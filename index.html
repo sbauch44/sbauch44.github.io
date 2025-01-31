@@ -93,12 +93,15 @@
         }
 
         /* Contact section styling */
-        .contact-info {
-            background: white;
-            padding: 2rem;
-            border-radius: 1rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            margin-top: 3rem;
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .contact-info a:hover {
+            color: #1d4ed8;
+            text-decoration: underline;
         }
 
         /* Responsive design */
@@ -130,14 +133,13 @@
 
     <section class="hero" id="home">
         <h1>Sam Bauch</h1>
-        <p>Data Scientist | Analyst</p>
+        <p>Data Analyst | Scientist</p>
     </section>
 
     <div class="container">
         <section id="about">
             <h2>About Me</h2>
-            <p>Hi! I'm a passionate developer interested in creating beautiful and functional websites. 
-            I love learning new technologies and solving interesting problems.</p>
+            <p>I'm a data analyst passionate about uncovering meaningful insights from complex datasets, with expertise in data manipulation, statistical analysis, and data visualization.</p>
         </section>
 
         <section id="projects">
@@ -145,15 +147,15 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <h3>Project 1</h3>
-                    <p>Description of your first project. What technologies did you use? What problems did you solve?</p>
+                    <p>...</p>
                 </div>
                 <div class="project-card">
                     <h3>Project 2</h3>
-                    <p>Description of your second project. Highlight your achievements and learning experiences.</p>
+                    <p>...</p>
                 </div>
                 <div class="project-card">
                     <h3>Project 3</h3>
-                    <p>Description of your third project. Share what makes this project special.</p>
+                    <p>...</p>
                 </div>
             </div>
         </section>
@@ -161,8 +163,8 @@
         <section id="contact" class="contact-info">
             <h2>Get in Touch</h2>
             <p>Email: sam.bauch[at]gmail.com</p>
-            <p>GitHub: github.com/sbauch44</p>
-            <p>LinkedIn: linkedin.com/in/sam-b-8b091455/</p>
+            <p>GitHub: <a href="https://github.com/sbauch44" target="_blank">github.com/sbauch44</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/sam-b-8b091455" target="_blank">linkedin.com/in/sam-b-8b091455</a></p>
         </section>
     </div>
 </body>
