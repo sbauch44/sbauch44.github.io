@@ -104,6 +104,21 @@
             text-decoration: underline;
         }
 
+        .project-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s;
+        }
+        
+        .project-link:hover {
+            background-color: #1d4ed8;
+        }
+
         /* Responsive design */
         @media (max-width: 768px) {
             nav ul {
@@ -147,7 +162,8 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <h3>Project 1</h3>
-                    <p>...</p>
+                    <p>I analyzed NYC Subway data for two separate case studies</p>
+                    <a href="https://github.com/sbauch44/MTA-Case-Studies" target="_blank" class="project-link">View on GitHub</a>
                 </div>
                 <div class="project-card">
                     <h3>Project 2</h3>
